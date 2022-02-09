@@ -1,8 +1,9 @@
 from hashlib import md5
+from colorama import Fore
 #imported md5 Libary for Checking  hash
 hash_encrypted=input("Enter Md5 hash:")
 if(len(hash_encrypted)<32):
-    print("Hash is Invalid Type")
+    print(Fore.RED+"Hash is Invalid Type")
     exit()
 wordlist=input("Enter Wordlist Name Or Path:")
 def file_handling(file):
