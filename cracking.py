@@ -3,7 +3,7 @@ from colorama import Fore
 #imported md5 Libary for Checking  hash
 logo=f"""
       ######################
-            [MD5 CRACKER]
+            {Fore.RED+}[MD5 CRACKER]
             *************
       
       Facebook:nebil Sharifi
@@ -12,6 +12,7 @@ logo=f"""
       ######################
        
 """
+print(logo)
 hash_encrypted=input("Enter Md5 hash:")
 if(len(hash_encrypted)<32):
     print(Fore.RED+"Hash is Invalid Type")
@@ -36,7 +37,7 @@ def main(file):
                 .RED+f"Password Nog Fond[-]{hash_encrypted}")
                 exit()
         
-if __name_ == "__main__":
+if __name__ == "__main__":
     main(word)
 #Created By Nebil Sharifi  
         
