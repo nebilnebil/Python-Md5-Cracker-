@@ -36,8 +36,8 @@ def main(file):
                 print("Not Found")
                 
         
- if __name__ == "__main__":
-     main(wordlist)
+if __name__ == "__main__":
+    main(wordlist)
 #Created By Nebil Sharifi  
         
         
