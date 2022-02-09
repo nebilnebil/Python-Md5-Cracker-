@@ -1,9 +1,9 @@
 from hashlib import md5
 from colorama import Fore
 #imported md5 Libary for Checking  hash
-logo=f"""
+logo=Fore.RRD+f"""
       ######################
-            {Fore.RED+}[MD5 CRACKER]
+            [MD5 CRACKER]
             *************
       
       Facebook:nebil Sharifi
