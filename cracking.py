@@ -4,7 +4,7 @@ hash_encrypted=input("Enter Md5 hash:")
 if(len(hash_encrypted)<32):
     print("Hash is Invalid Type")
     exit()
-wordlist=input("Enter Wordlist Name Or Pahth:")
+wordlist=input("Enter Wordlist Name Or Path:")
 def file_handling(file):
     f=open(file,"rb")
     for line in f.readlines():
