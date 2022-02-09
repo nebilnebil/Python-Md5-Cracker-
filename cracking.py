@@ -36,8 +36,7 @@ def main(file):
                 pass
                 exit()
         
-if __name__ =="__main__":
-    main(wordlist)
+main(wordlist)
 #Created By Nebil Sharifi  
         
         
