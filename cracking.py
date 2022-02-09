@@ -33,8 +33,7 @@ def main(file):
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
-                pass
-                exit()
+                print("Not Found")
         
 main(wordlist)
 #Created By Nebil Sharifi  
