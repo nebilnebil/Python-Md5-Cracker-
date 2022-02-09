@@ -33,12 +33,12 @@ def main(file):
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
-                print(Fore
-                .RED+f"Password Nog Fond[-]{hash_encrypted}")
-                exit()
+                print("not matche")
+                break
+
         
-if __name__ == "__main__":
-    main(wordlist)
+
+main(wordlist)
 #Created By Nebil Sharifi  
         
         
