@@ -34,9 +34,10 @@ def main(file):
                break
             else:
                 print("Not Found")
-                break
+                
         
- if __name__ == "__main__":    main(wordlist)
+ if __name__ == "__main__":
+     main(wordlist)
 #Created By Nebil Sharifi  
         
         
