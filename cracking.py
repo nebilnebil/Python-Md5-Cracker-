@@ -2,7 +2,14 @@ from hashlib import md5
 from colorama import Fore
 #imported md5 Libary for Checking  hash
 logo=f"""
-      [MD5 CRACKER]
+      ######################
+            [MD5 CRACKER]
+            *************
+      
+      Facebook:nebil Sharifi
+      Telegram:nebil_247
+      github:nebilnebil
+      ######################
        
 """
 hash_encrypted=input("Enter Md5 hash:")
