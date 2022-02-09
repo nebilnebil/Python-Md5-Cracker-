@@ -34,6 +34,7 @@ def main(file):
                break
             else:
                 print("Not Found")
+                break
         
 main(wordlist)
 #Created By Nebil Sharifi  
