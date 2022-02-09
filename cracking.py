@@ -1,12 +1,16 @@
 from hashlib import md5
 from colorama import Fore
 #imported md5 Libary for Checking  hash
+logo=f"""
+      [MD5 CRACKER]
+       
+"""
 hash_encrypted=input("Enter Md5 hash:")
 if(len(hash_encrypted)<32):
     print(Fore.RED+"Hash is Invalid Type")
     exit()
 wordlist=input("Enter Wordlist Name Or Path:")
-def file_handling(file):
+def main(file):
     f=open(file,"rb")
     for line in f.readlines():
         word=line.split()
@@ -17,15 +21,16 @@ def file_handling(file):
             md.update(new)
             if(md.hexdigest() == hash_encrypted):
                
-               print(f"Password Found:{Fore.GREEN+str(new.decode())}")
+               print(f"Password Found[+]:{Fore.GREEN+str(new.decode())}")
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
                 print(Fore
-                .RED+"Password Nog Fond")
+                .RED+f"Password Nog Fond[-]{hash_encrypted}")
                 exit()
         
-file_handling(wordlist)
+if __name_ == "__main__":
+    main(word)
 #Created By Nebil Sharifi  
         
         
