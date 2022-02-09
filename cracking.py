@@ -16,7 +16,7 @@ def file_handling(file):
             md.update(new)
             if(md.hexdigest() == hash_encrypted):
                
-               print(f"Password Found:{new}")
+               print(f"Password Found:{new.decode()}")
                print(f"Hash is:{hash_encrypted}")
                break
             else:
