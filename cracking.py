@@ -33,7 +33,7 @@ def main(file):
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
-                Pass
+                pass
         
                 
         
