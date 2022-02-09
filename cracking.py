@@ -21,7 +21,9 @@ def file_handling(file):
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
-                pass
+                print(Fore
+                .RED+"Password Nog Fond")
+                exit()
         
 file_handling(wordlist)
 #Created By Nebil Sharifi  
