@@ -18,7 +18,7 @@ def file_handling(file):
             if(md.hexdigest() == hash_encrypted):
                
                print(f"Password Found:{Fore.GREEN+str(new.decode())}")
-               print(f"Hash is:{Fore.GREEN+hash_encrypted}")
+               print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
                 pass
