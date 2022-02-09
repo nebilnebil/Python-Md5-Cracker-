@@ -33,7 +33,8 @@ def main(file):
                print(Fore.WHITE+f"Hash is:{Fore.GREEN+hash_encrypted}")
                break
             else:
-                print("Not Found")
+                Pass
+        
                 
         
 if __name__ == "__main__":
