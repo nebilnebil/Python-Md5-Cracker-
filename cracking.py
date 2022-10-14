@@ -7,8 +7,8 @@ logo=Fore.RED+f"""
             *************
       
       Facebook:nebil Sharifi
-      Telegram:nebil_247
-      github:nebilnebil
+      Telegram:nebil_sharifi
+      github:nebil sharifi
       ######################
        
 """
